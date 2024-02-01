@@ -1,0 +1,27 @@
+/* 全局页面样式 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", serif;
+}
+
+body{
+    /* 界面 */
+    --head-height: 8vh;
+    --body-height: 92vh;
+    --content-height: 88vh;
+    --global-max-width: 80vw;
+    --left-width: 20vw;
+    /* 部件 */
+    --head-margin: 12vw;
+    --user-op-btn-height: 36px;
+    --user-op-btn-width: 90px;
+    --btn-border: #333 solid 1px;
+    --global-border: #333 solid 2px;
+    --avatar-width: 100px;
+}
+
+/*链接指针*/
+.cur-pointer{
+    cursor: pointer;
+}

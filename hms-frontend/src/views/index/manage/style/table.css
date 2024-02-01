@@ -1,0 +1,75 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.example-showcase .el-loading-mask {
+    z-index: 9;
+}
+
+.table-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.table-header-search-area {
+    padding-top: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.table-header-tools-area {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.table-main {
+    flex: 13;
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+
+.table-footer {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.el-button--text {
+    margin-right: 15px;
+}
+
+.el-input {
+    width: 100px;
+}
+
+.dialog-footer button:first-child {
+    margin-right: 10px;
+}
+
+.table-main>.el-table__inner-wrapper{
+    width: 100%;
+    overflow-x: scroll;
+}

@@ -1,0 +1,105 @@
+/*主容器*/
+.main-container{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+    max-width: 800px;
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+}
+
+/*头像区域*/
+.avatar-container{
+    height: 120px;
+    width: 320px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/*头像区域*/
+.avatar-part{
+    position: relative;
+    display: flex;
+}
+
+/*头像*/
+.avatar{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*账户名称区域*/
+.name-part{
+    margin-left: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*用户名*/
+.name-name{
+    flex: 3;
+    font-size: 24px;
+    line-height: 50px;
+    border-bottom: #ccc solid 1px;
+}
+
+/*用户组*/
+.name-group{
+    font-size: 18px;
+    line-height: 36px;
+    flex: 2;
+}
+
+/*分割线*/
+.divider{
+    margin: 10px 0;
+}
+
+/*条目区域*/
+.item-wrapper{
+    width: 90%;
+    /*background-color: yellowgreen;*/
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*条目*/
+.item{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*条目名称*/
+.item-key{
+    /*background-color: red;*/
+    box-sizing: border-box;
+
+}
+
+/*条目值*/
+.item-value{
+    /*background-color: green;*/
+}

@@ -1,0 +1,19 @@
+.welcome-title{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #eee;
+    text-shadow: 0 0 3px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+.right-card{
+    width: 400px;
+    z-index: 1;
+    background-color: var(--el-bg-color);
+}

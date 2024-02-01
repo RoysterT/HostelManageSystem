@@ -1,0 +1,4 @@
+*.class
+hms-backend/src/test/java/com/hostelms/HmsBackendApplicationTests.java
+/hms-backend/target/
+.idea

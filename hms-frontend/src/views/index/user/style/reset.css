@@ -1,0 +1,12 @@
+.container{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 520px;
+}
+
+/*获取验证码按钮*/
+.getCodeBtn{
+    width: 100px;
+}

@@ -1,0 +1,24 @@
+spring:
+  mail:
+    host:
+    username:
+    password:
+  rabbitmq:
+    addresses: localhost
+    username: guest
+    password: guest
+    virtual-host: /
+  security:
+    filter:
+      order: -100
+    jwt:
+      key: mqdqxygyqyklklsyseslqb
+      expire: 6
+  datasource:
+    url: jdbc:mysql://localhost:3306/hms
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

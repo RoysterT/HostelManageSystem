@@ -1,0 +1,29 @@
+/*左侧部分*/
+.left{
+    background-color: cyan;
+}
+
+/*左侧容器*/
+.left-wrapper{
+    height: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+}
+
+/*左侧头像区域*/
+.left-avatar{
+    background-color: blue;
+    flex: 1;
+}
+
+/*左侧内容区域*/
+.left-main{
+    background-color: red;
+    flex: 2;
+}
+
+.right{
+    background-color: greenyellow;
+    height: calc(100vh - 60px);
+}
